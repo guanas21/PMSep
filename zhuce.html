@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<title>中国故宫博物院</title>
+</head>
+<body>
+<header class="head">
+  <div> <img src="images/logo.png"> <span class="bda"> <a href="zhuce.html">注册</a> | <a href="denglu.html">登录</a></span></div>
+</header>
+<nav class="menu">
+  <ul class="center">
+    <li><a href="index.html">网站首页</a></li>
+    <li><a href="sichuan.html">太和殿 </a></li>
+    <li><a href="yunnan.html"> 养心殿</a></li>
+    <li><a href="xizang.html">御花园</a></li>
+    <li><a href="tuijie.html">其它推荐</a></li>
+  </ul>
+</nav>
+<div class="content">
+  <div class="left">
+    <div class="bar"> <strong>注册</strong></div>
+    <div>
+      <section class='container'>
+        <!-- / Form -->
+       <form  name="form" action="denglu.html">
+        <div class="msg pad clearfix">
+          <div class="fl_1"> <span class="fl">* 邮箱：</span>
+            <input type="text" class="input" size="50" id="input1" />
+          </div>
+		  <div class="fl_1"> <span class="fl">性別：</span>
+            <label><input type="radio" name="sex">男</label>
+            <label><input type="radio" name="sex">女</label>
+          </div>
+		  <div class="fl_1"> <span class="fl">向往景点：</span>
+            <label><input type="checkbox" name="sex">太和殿</label>
+            <label><input type="checkbox" name="sex">养心殿</label>
+            <label><input type="checkbox" name="sex">御花园</label>
+            <label><input type="checkbox" name="sex">其他</label>
+          </div>
+          <div class="fl_1"> <span class="fl">* 账号：</span>
+            <input type="text" class="input" size="50" id="input2" />
+          </div>
+          <div class="fl_1"> <span class="fl">* 密码：</span>
+            <input type="password" class="input" size="50"  id="input3"/>
+          </div>
+          <div class="fl_1"> <span class="fl">* 确定密码：</span>
+            <input type="password" class="input" size="50"  id="input4"/>
+          </div>
+          <div class="fl_1"> <span class="fl"></span>
+            <input type="button" class="submit"  value="提交" onClick="on_click()" />
+          </div>
+        </div>
+      </form>
+	   <script type="text/javascript" src="js/register.js"></script>
+      </section>
+    </div>
+  </div>
+  <div class="right">
+    <div class="bar2"><strong>景点推荐</strong></div>
+    <ul class="ull2" id="ttList">
+      <li><a href="info.html">故宫博物馆</a></li>
+      <li><a href="taihedian.html">太和殿</a></li>
+      <li><a href="yangxindian.html">养心殿</a></li>
+      <li><a href="yuhuayuan.html">御花园</a></li>
+      <li><a href="qita.html">承乾宫</a></li>
+      <li><a href="qita.html">中和殿</a></li>
+      <li><a href="qita.html">神武门</a></li>
+    </ul>
+  </div>
+  <div class="clear"></div>
+</div>
+</body>
+</html>
